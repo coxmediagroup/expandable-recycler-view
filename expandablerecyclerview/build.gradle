@@ -1,14 +1,17 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.polyglotprogramminginc'
 
 android {
-    compileSdkVersion 24
+    compileSdkVersion 27
     buildToolsVersion "$BUILD_TOOLS_VERSION"
 
     defaultConfig {
-        minSdkVersion 9
-        targetSdkVersion 24
-        versionCode 9
-        versionName "3.0.0-RC1"
+        minSdkVersion 14
+        targetSdkVersion 27
+        versionCode 10
+        versionName "3.0.0-RC2"
     }
     buildTypes {
         release {
